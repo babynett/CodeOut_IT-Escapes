@@ -1,0 +1,70 @@
+*****DO NOT COPY THIS PART//PYTHON*****
+
+live = "You got the right person!"
+kill = "WRONG ANSWER"
+while True:
+    print("\nNOTE: Type the exact word/letter indicated in the code. All words are case sensitive\n")
+    print("Who did Henry Bowers first point his knife to? ")
+    print("Mr. Bowers")
+    print("Eddie")
+    print("Pennywise")
+    print("Bill")
+    print("Beverly")
+    print("Ben")
+    print("Richie")
+    print("Bill")
+    print("Mike")
+    print("Type Help for clue")
+    bowers = str(input("Please enter your choice: "))
+    if bowers == "Ben":
+        print("\n", live, "\n")
+        break
+    elif bowers == "Help":
+        print("\nThe worst trauma can change us not only mentally, emotionally, but also physically.\n")
+        print("\nTry again? Type Y for yes or N for no ")
+        yes = input("")
+        if yes=="Y":
+            continue
+        elif yes=="N":
+            print('Okay your loss.')
+            break
+        else:
+            print('')
+            continue
+    elif bowers == "Mr. Bowers" or "Eddie" or "Pennywise" or "Bill" or "Beverly" or "Richie" or "Bill" or "Mike":
+         print("\n",kill,"\n")
+         print("Do you want to continue? Type Y for yes and N for no")
+         peep = input("")
+         if peep=="Y":
+              continue
+         else:
+              print("\nYou sure you wanna give up? Type Y for yes or N for no\n")
+              chance = input(" ")
+              if chance=="Y":
+                  print("Okay your loss.")
+                  break
+              else:
+                print("\nGood.\n")
+                continue
+
+*****DO NOT COPY THIS PART//HTML*****
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        h1{
+            font-family: monospace;
+        }
+        s{
+            color: rgb(216, 43, 43);
+        }
+    </style>
+</head>
+<body>
+    <h1><s>HELO</s>&nbsp;R<s>ICH</s>&nbsp;O<s>RE</s>&nbsp;O<s>CA</s>&nbsp;M<s>EL</s></h1>
+</body>
+</html>

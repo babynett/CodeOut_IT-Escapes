@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("assets/d2.jpg");
+    background-size: contain;
+}
+
+.frame-con{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.red-frame{
+    width: 65%;
+}
+
+button{
+    height: 80px;
+    width: 15%;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.btn-con{
+    width: auto;
+    position: relative;
+    bottom: 400px;
+    left: 80%;
+}
+
+button:hover{
+    transform: scale(1.1);
+    z-index: 1;
+    background-color: rgb(129, 12, 12);
+    box-shadow: 0px 0px 3px 3px #edc0c0;
+    transition: 0.5s;
+}

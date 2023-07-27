@@ -1,0 +1,175 @@
+1.  What would be the output for "The Wise CountPenny"? (C++) 
+
+#include <iostream>
+
+using namespace std;
+
+int main ()
+{
+    string CountPenny = "HELPMEHELPYOU KILLED EDDIE NOT";
+    cout << "The Wise CountPenny Code" << endl << endl;
+    cout << CountPenny[10];
+    cout << "0";
+    cout << CountPenny[12];
+    cout << " " << CountPenny[19];
+    cout << "1";
+    cout << CountPenny[22];
+    cout << " " << CountPenny[24];
+    cout << CountPenny[29];
+    cout << "!";
+    return 0;
+}
+
+OUTPUT: Y0U D1D IT!
+
+2. What is the answer to "BowersInMove"? (C++) 
+
+#include <iostream>
+
+using namespace std;
+
+int main ()
+{
+    string BowersIn, BowersOut, BowersUp;
+    cout << "Insert words until you think the grammar is correct" << endl;
+    cout << "WORD CHOICES:" << endl;
+    cout << "\n>>ME" << endl << "\n>>HELLO" <<endl << "\n>>FOUND" << endl << "\n>>YOU" <<endl << "\n>>!!!\n" << endl;
+        //output
+    cout << "Input 1st word from the choices: ";
+    cin>> BowersIn;
+    cout << "Input 2nd word from the choices: ";
+    cin >> BowersOut;
+    cout << "Input last word from the choices: ";
+    cin >> BowersUp;
+    cout << "OUTPUT: " << BowersIn << " " << BowersOut << " " << "ME" << BowersUp << endl;
+    cout<< "CLUE = Georgie is shouting!!!";
+    return 0;
+}
+
+OUTPUT: YOU FOUND ME!!!
+
+3. What would be the output for the HoolaLoop Program? 
+
+loop = "hoola"
+loopy = True
+
+for loop in range (5):
+    if loop == loopy:
+        print(loopy)
+        
+
+
+4. ForGeorgieLoop (C++)
+
+CODE:
+#include <iostream>
+
+using namespace std;
+
+int main (){
+    for(int i=10; i<365; i++){
+        cout<<"Georgie"<<endl;
+    }
+    return 0;
+}
+
+5. Kill or Live? (python) DONE!
+6. What is true and false in The Wise Java()? Must be in order and have a space in between. (java)
+
+CODE:
+public class CompareStrings {
+
+    public static void main(String[] args) {
+
+        String style = new String("The");
+        String style2 = new String("Wise");
+        String style3 = new String("Penny");
+
+        boolean result1 = style.equals("Wise");
+        boolean result2 = style.equals("Penny");
+        System.out.println(result2);
+
+        result1 = style2 == "Wise";
+        System.out.println(result1);
+
+        result2 = style3 == style3;
+        System.out.println(result2);
+
+        result1 = style == style2;
+        System.out.println(result1);
+    }
+}
+
+output: false false true false
+
+7. Prevent Georgie from Selecting the wrong people! The code is written on the main page....just inspect it a bit and you'll see clues.... my <HEAD> is spinning sorry. DONE!
+8. Missing(codes) (jS) What are the missing codes of the "Missing(codes)" in order to execute the program?
+
+function ans(){
+    var mul = document.getElementById("multiply").value;
+    var tea = document.getElementById("text").value;
+
+    if(______=="Multiplication" && ______=="Herbal Tea"){
+        alert("You can now drink your tea while solving multiplication problems");
+    }
+    else{
+        alert("Null");
+    }  return;
+};
+
+9. The day I first met the Sewer (python) DONE!
+
+days = [25, 55, 40, 505, 70, 325]
+months = ["March", "January", "April", "December", "May", "June",
+"October", "July", "September", "November", "August", "February"]
+Sum = sum(days)
+average = Sum/len(days)
+month = months[8]
+print("Pennywise kept me for so long I could not count the",(average), "days...",(month),"....what day and year is it now? I hope you could figure out the date.")
+
+10.  (combination of C++ and HTML)
+
+CODE:
+#include <iostream>
+
+using namespace std;
+
+int main (){
+    string AlmostNear = "NOTSOFAR";
+    string Final = "IWANT2GO HOME NOW!";
+    cout<<AlmostNear[5]<<endl;
+    cout<<"4"<<endl;
+    cout<<Final[0]<<endl;
+    cout<<AlmostNear[2]<<endl;
+    cout<<Final[9]<<endl;
+    return 0;
+}
+MESSAGE: F4ITH (c++)
+
+CODE:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        h1{
+            font-family: monospace;
+        }
+        s{
+            color: rgb(216, 43, 43);
+        }
+    </style>
+</head>
+<body>
+    <h1><s>HELO</s>&nbsp;R<s>ICH</s>&nbsp;O<s>RE</s>&nbsp;O<s>CA</s>&nbsp;M<s>EL</s></h1>
+</body>
+</html>
+MESSAGE: HELORICHOREOCAMEL = ROOM (html)
+
+Final Message: (1)Y0U D1D IT! (2)YOU FOUND ME!!! It is (3)TRUE that I have been hiding for so long within the premises of the place you are in right now. I could not escape it. It has been
+calling out to me (4)355 times. I'm scared I might bump into Henry Bowers. That demon almost killed (5)BEN! (6)False...false..true...false..this world has been lying to me! Never mind.
+You might be wondering why the code (7) 732202. Because that is the date today, 02/27/2023! Pennywise kept me for so long so I counted every day and did some math while it was gone looking
+for food. Addition...(8) Multiplication...Subtraction...I got bored and drank (8)tea because it was the only thing I have. It is now the (9) 170th day since I was last captured on 
+September 10. (10)I wanna go home so hurry up. My (10)faith is losing so can you help me and guess what (10)room I'm in? :(

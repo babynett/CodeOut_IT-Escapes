@@ -1,0 +1,17 @@
+ANSWERS: main website
+
+1. Y0U D1D IT!
+2. YOU FOUND ME!!!
+3. true
+4. 355
+5. Ben
+6. false false true false
+7. 732202
+8. mul tea
+9. September 10
+10. F4ITH ROOM
+
+ANSWERS:  LOGIN
+
+code: 1000
+password: pennywisekills
